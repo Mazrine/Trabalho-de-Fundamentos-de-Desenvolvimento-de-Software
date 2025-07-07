@@ -10,40 +10,57 @@
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <script src="script.js"></script>
-  <header class="center">
+    <header class="center">
     <h1 class="center">Lisa Mascarenhas Gusmão</h1>
-    <p class="center white">Olá! Sou a Lisa (Também conhecida por Mazrine). Tenho 28 anos, adoro gatos, música, a cor roxa- </p>
+    <p class="center white">Olá! Sou a Lisa (Também conhecida por Mazrine). Tenho 28 anos e sou baiana, porém moro em são paulo. Adoro gatos, música, a cor roxa, triângulos e diversas outras coisas!</p>
+    <button id="showTextButton">Clique para ver uma mensagem!</button>
+    <div id="message" class="white center" style="display: none; margin-top: 1em;"></div>
   </header>
-  <div class="center white">
-    <h2>Hobbies</h2>
-    <ul>
-      <li>Linux
-      <li>Live-coding de música
-      <li>glitch art
-    </ul>
+  <h2 class="center white">Hobbies</h2>
+  <div class="hobbies">
+    <div class="center white">
+      
+      <ul>
+        <li>Linux</li>
+        <li>Live-coding de música</li>
+        <li>glitch art</li>
+      </ul>
+    </div>
+    <img src="images/glitchart.jpg" alt="glitch art de meu olho com maquagem e efeitos" height="150px" width="150px" class="border center">
   </div>
-  <img>
-  <table class="white">
-  <caption>
-    Top 3 países que quero visitar
-  </caption>
+
+<div class="center">  
+<table class="white styled-table">
+  <caption>Top 3 países que quero visitar</caption>
+  <thead>
+    <tr>
+      <th>País</th>
+      <th>Bandeira</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <th scope="row">Palestina</th>
-      <td><img></td>
-            
+      <td>Palestina</td>
+      <td><img src="images/palestina.png" height="50" width="75" alt="Bandeira da Palestina"></td>
     </tr>
     <tr>
-      <th scope="row">China</th>
-      <td>---</td>
-          </tr>
+      <td>China</td>
+      <td><img src="images/china.png" height="50" width="75" alt="Bandeira da China"></td>
+    </tr>
     <tr>
-      <th scope="row">Uruguai</th>
-      <td>---</td>
-          </tr>
-      </tbody>
- </table>
+      <td>Uruguai</td>
+      <td><img src="images/uruguai.png" height="50" width="75" alt="Bandeira do Uruguai"></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
   
+  <div class="center white">
+  <div class="link-box">
+    <h3>Olha aqui um site bem legal:</h3>
+    <a href="https://www.windows93.net/">https://www.windows93.net/</a>
+    </div>
+  </div>
+<script src="script.js"></script>
 </body>
 </html>
