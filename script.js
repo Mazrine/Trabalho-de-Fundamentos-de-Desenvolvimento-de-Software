@@ -1,8 +1,4 @@
-const messages = [
-  "▽ Muito bem! ▽",
-  "▽ Ebaa!! ＼(＾▽＾)／ ▽",
-  "▽ que legal! ▽"
-];
+const messages = ["▽ Muito bem! ▽", "▽ Ebaa!! ＼(＾▽＾)／ ▽", "▽ que legal! ▽"];
 
 const button = document.getElementById("showTextButton");
 const hiddenMessage = document.getElementById("message");

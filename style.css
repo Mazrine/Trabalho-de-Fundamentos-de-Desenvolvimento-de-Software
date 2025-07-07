@@ -1,5 +1,5 @@
 body {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   background: linear-gradient(90deg, #2e003e, #5d2a7a);
   display: flex;
   flex-direction: column;
@@ -11,24 +11,26 @@ p {
   max-width: 600px;
   text-align: center;
   font-size: 1.2em;
-  }
+}
 
-ul li { margin-bottom: 1em;}
+ul li {
+  margin-bottom: 1em;
+}
 
 .center {
   display: grid;
   justify-content: center;
   justify-items: center;
   align-content: center;
-  }
+}
 
 .white {
   color: white;
 }
 
 button {
-  background-color: #00D974;
-  border: 1px solid #00D974;
+  background-color: #00d974;
+  border: 1px solid #00d974;
   border-radius: 10px;
   padding-left: 5px;
   padding-right: 5px;
@@ -44,19 +46,16 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   gap: 2em;
-  
 }
 
-
 h1 {
-  color: #00D974;
-  
+  color: #00d974;
 }
 
 .border {
-  border: 1px solid #00D974;
+  border: 1px solid #00d974;
   border-radius: 10px;
 }
 
@@ -69,16 +68,17 @@ h1 {
 .styled-table caption {
   font-weight: bold;
   margin-bottom: 0.5em;
-  }
+}
 
-.styled-table td, .styled-table th {
+.styled-table td,
+.styled-table th {
   padding: 1em;
-  border: 1px solid #00D974;
+  border: 1px solid #00d974;
   text-align: center;
 }
 
 .styled-table th {
-  background-color: #00D974;
+  background-color: #00d974;
   color: #2e003e;
 }
 
@@ -86,12 +86,12 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   gap: 1em;
 }
 
 a {
-  color: #00D974;
+  color: #00d974;
 }
 
 a:hover {
